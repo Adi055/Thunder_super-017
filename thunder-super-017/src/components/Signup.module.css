@@ -1,0 +1,26 @@
+.first{
+    display: flex;
+    
+}
+.first>div{
+   
+    background-color: #F2D184;
+    height: 550px;
+    width: 260px;
+}
+.first>div>div>img{
+    width: 100px;
+   
+}
+.first>div>div>h1{
+   font-size: 23px;
+   color: #866118;
+   font:  "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 8px;
+}
+.first>div>div{
+    position: relative;
+    left: 40px;
+    width: 500px;
+    top: 50px;
+}

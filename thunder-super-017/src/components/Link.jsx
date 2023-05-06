@@ -63,10 +63,10 @@ return (
         </Link>
        
         <Link to="/signin" >
-            <button className={styles.signin}  style={{marginRight:"15px",marginTop:"25px",border:"none",fontSize:"16px", backgroundColor: 'white',color:"#6e6d7a"}}>Sign in</button>
+            <button className={styles.signin}  style={{marginRight:"15px",marginTop:"25px",border:"none",fontSize:"16px", backgroundColor: 'white',color:"#6e6d7a",cursor:"pointer"}}>Sign in</button>
         </Link>
         <Link to="/signup" >
-        <button style={{marginRight:"5px",marginTop:"20px",backgroundColor: '#ea4c89',color:"white",border:"none",height:"2.7vw",width:"5.5vw",borderRadius:"0.5em"}}>Sign up</button>
+        <button style={{marginRight:"5px",marginTop:"20px",backgroundColor: '#ea4c89',color:"white",border:"none",height:"2.7vw",width:"5.5vw",borderRadius:"0.5em",cursor:"pointer"}}>Sign up</button>
         </Link>
         </div>
 </div>
