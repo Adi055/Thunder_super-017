@@ -30,12 +30,12 @@ function Home(){
         </div>
         <div className={styles.bottom}>
             <button style={{backgroundColor:"transparent",border:"none",color:"white"}}>Tending searches</button>
-            <button style={{backgroundColor:"transparent",color:"white",height:"2.5vw",width:"8vw",marginRight:"15px",borderRadius:"50px",border:"1px solid white"}}>landing page</button>
-            <button style={{backgroundColor:"transparent",color:"white",height:"2vw",width:"4vw",marginRight:"15px",borderRadius:"50px",border:"1px solid white",marginTop:"3px"}}>ios</button>
-            <button style={{backgroundColor:"transparent",color:"white",height:"2vw",width:"4vw",marginRight:"15px",borderRadius:"50px",border:"1px solid white",}}>food</button>
-            <button style={{backgroundColor:"transparent",color:"white",height:"2.5vw",width:"8vw",marginRight:"15px",borderRadius:"50px",border:"1px solid white"}}>landingpage</button>
-            <button style={{backgroundColor:"transparent",color:"white",height:"2.5vw",width:"8vw",marginRight:"15px",borderRadius:"50px",border:"1px solid white"}}>uxdesign</button>
-            <button style={{backgroundColor:"transparent",color:"white",height:"2.5vw",width:"8vw",marginRight:"15px",borderRadius:"50px",border:"1px solid white"}}>app design</button>
+            <button style={{backgroundColor:"transparent",color:"white",height:"2.5vw",width:"8vw",marginRight:"12px",borderRadius:"50px",border:"1px solid white"}}>landing page</button>
+            <button style={{backgroundColor:"transparent",color:"white",height:"2vw",width:"4vw",marginRight:"12px",borderRadius:"50px",border:"1px solid white",marginTop:"3px"}}>ios</button>
+            <button style={{backgroundColor:"transparent",color:"white",height:"2vw",width:"4vw",marginRight:"12px",borderRadius:"50px",border:"1px solid white",marginTop:"3px"}}>food</button>
+            <button style={{backgroundColor:"transparent",color:"white",height:"2.5vw",width:"8vw",marginRight:"12px",borderRadius:"50px",border:"1px solid white"}}>landingpage</button>
+            <button style={{backgroundColor:"transparent",color:"white",height:"2.5vw",width:"8vw",marginRight:"12px",borderRadius:"50px",border:"1px solid white"}}>uxdesign</button>
+            <button style={{backgroundColor:"transparent",color:"white",height:"2.5vw",width:"8vw",marginRight:"12px",borderRadius:"50px",border:"1px solid white"}}>app design</button>
         </div>
         </div>
     )
