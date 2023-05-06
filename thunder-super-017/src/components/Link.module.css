@@ -3,3 +3,54 @@
    margin-top: 27px;
    margin-right: 12px;
 }
+.first:hover::content{
+color: black;
+}
+
+.dropmenu>.box1{
+    display: none;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  background-color:white;
+  width: 470px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  padding: 15px 16px;
+  z-index: 1;
+  border-radius: 0.9em;
+}
+.mainbox1:hover .dropmenu >div{
+    display: inline; 
+}
+
+.box1>h5{
+    
+    color: #0d0c22;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 520;
+    line-height: 20px;
+    margin: 0;
+}
+.box1>p{
+    
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.browse>h5{
+    color: #0d0c22;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 520;
+    line-height: 20px;
+  
+}
+.browse{
+   background-color:rgb(250, 251, 249);
+}
+
+
+
