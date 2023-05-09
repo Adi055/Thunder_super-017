@@ -4,7 +4,7 @@
 }
 .dribble{
   position:fixed;
-    background-color: #F2D184;
+    background-color: #F1CDD7;
      height: 550px;
     width: 500px; 
      
@@ -12,12 +12,13 @@
 }
 .first>div>div>img{
     width: 100px;
+    background: transparent;
    
 }
 .first>div>div>h1{
    position: relative;
    font-size: 23px;
-   color: #866118;
+   color: #975a6f;
    font:  "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   left: 8px;
 }
@@ -88,16 +89,17 @@ border-top: 1px solid #e0e0e0;
  
    bottom: 10px;
 }
-.form>div>input{
+/* .form>div>input{
 display: block;
 border: none;
 background-color: #e7e7e9;
-box-shadow: none;
-outline: none;
+box-shadow: none;outline: none; 
+
 border-radius: 8px;
 height: 3vw;
 width: 13vw;
-}
+} */
+
 .form{
     position: relative;
     display: flex;
@@ -129,6 +131,7 @@ outline: none;
 border-radius: 8px;
 height: 3vw;
 width: 27.7vw;
+transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
 }
 .password{
     position: relative;

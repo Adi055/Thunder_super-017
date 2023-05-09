@@ -1,13 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Semain from './components/Semain';
 import Main from './components/main';
-import Signup from './components/Signup';
+import { useState } from 'react';
 
 
 function App() {
+let [loginStatus,SetStatus]=useState(false)
+
+
+
+
+
   return (
     <div className="App">
-     <Main/>
+      {
+        loginStatus?<Main/>:<Semain/>
+      }
+     
     
     </div>
   );
