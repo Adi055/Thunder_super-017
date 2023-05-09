@@ -72,4 +72,5 @@ return (
 </div>
 )
 }
+
 export default AllLink

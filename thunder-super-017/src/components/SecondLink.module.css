@@ -1,0 +1,101 @@
+
+.image{
+    width: 17px;
+   margin-top: 27px;
+   margin-right: 12px;
+}
+.first:hover::content{
+color: black;
+}
+
+.dropmenu{
+    position: absolute;
+    right: 150px;
+
+}
+
+.dropmenu>.box1{
+    display: none;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background-color:rgb(255, 255, 255);
+  width: 360px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  padding: 15px 16px;
+  z-index: 1;
+  border-radius: 0.4em;
+}
+.mainbox1:hover .dropmenu >div{
+    display: inline; 
+}
+
+.box1>h5{
+    
+    color: #0d0c22;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 520;
+    line-height: 20px;
+    margin: 0;
+}
+.box1>p{
+    
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.browse>h5{
+    color: #0d0c22;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 520;
+    line-height: 20px;
+  
+}
+.browse{
+   background-color:rgb(250, 251, 249);
+}
+
+.user{
+    position: relative;
+    right: 60px;
+    top: 25px;
+}
+.user>div>img{
+width: 25px;
+cursor: pointer;
+
+}
+
+.search{
+    position: absolute;
+    top: 16px;
+    
+   left: 800px;  
+}
+.search>input{
+    padding: 13px 10px 13px 45px;
+    border-radius: 8px;
+    border: 0.1px solid grey;
+    outline: none;
+}
+.search > input[type="search"]:focus {
+    border: 1px solid transparent;
+  transition: background-color 200ms ease, outline 200ms ease, color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+    
+  }
+  .search>img{
+    position: absolute;
+    width: 17px;
+    top: 14px;
+    left: 3px;
+    background: transparent;
+  }
+
+  .h5{
+    font-size: 10px;
+    color: rgb(85, 82, 82);
+  }
