@@ -6,7 +6,7 @@ import { Navigate } from "react-router-dom";
 import { useContext } from "react";
 
 
-
+let data=JSON.parse(localStorage.getItem("item"))||[];
 
 function SecondLink(){
     // let {logout}=useContext(AuthContext)
@@ -23,7 +23,7 @@ function SecondLink(){
            <img src={finalImage} alt="logo" style={{width:"80px"}}/>
            
            </Link>
-            <Link to="/inspiration" style={{textDecoration:"none",marginTop:"23px", fontFamily: '"Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif',color:"#6e6d7a" }} className={styles.first}>
+            <Link to="/inspirations" style={{textDecoration:"none",marginTop:"23px", fontFamily: '"Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif',color:"#6e6d7a" }} className={styles.first}>
                <div style={{marginTop:"0px",marginRight:"5px", position: "relative",display: "inline-block"}} className={styles.mainbox1}>
                Inspiration
                    
@@ -80,9 +80,15 @@ function SecondLink(){
                
                 <div className={styles.dropmenu}>
                     <div className={styles.box1} style={{height:"340px",width:"230px",position:"absolute",top:"6px"}}>
+                     <div>
+                       
+                       {data.map((ele)=>(
+                           <h5 style={{marginTop:"18px",marginLeft:"35px",color:"rgb(85, 82, 82)",fontSize:"15px"}}>{ele.username}</h5>
+                       ))}
+                      </div>
                         <h5 style={{marginTop:"18px",marginLeft:"35px",color:"rgb(85, 82, 82)",fontSize:"15px"}} >Profile</h5>
                         <div style={{marginLeft:"11px"}}><hr style={{color:"grey",width:"180px"}}/></div>
-                       
+                      
                         <div className={styles.box1} style={{marginTop:"18px",marginLeft:"35px"}}>
                         <h5 style={{color:"rgb(85, 82, 82)",fontSize:"15px"}}>Edit Profile</h5>
                         <br/>
@@ -92,7 +98,7 @@ function SecondLink(){
                     <div className={styles.box1} style={{marginTop:"15px",marginLeft:"35px"}}>
                         <h5 style={{color:"rgb(85, 82, 82)",fontSize:"15px"}}>My Boosted Shots</h5>  
                         <br/>
-                        <h5 style={{color:"rgb(85, 82, 82)",fontSize:"15px"}}>My Likes</h5>
+                        <h5 style={{color:"rgb(85, 82, 82)",fontSize:"15px"}}><Link to="/likes" style={{textDecoration:"none",color:"rgb(85, 82, 82)"}}>My Likes</Link></h5>
                        
                     </div>
                     <div className={styles.box1} style={{marginTop:"18px",marginLeft:"35px"}}>

@@ -7,8 +7,7 @@ import Hire from "./Hire"
 import Home from "./Home"
 import Signup from "./Signup"
 import Signin from "./Signin"
-import LogHome from "./loggedHome"
-import SecondLink from "./SecondLink"
+
 
 
 
@@ -20,11 +19,11 @@ function Allroute(){
 return (
     <div >
         <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/inspiration" element={<Inspiration/>}/>
+             <Route path="/" element={<Home/>}/>
+            <Route path="/inspiration" element={<Inspiration/>}/> 
             <Route path="/work" element={<Work/>}/>
-            <Route path="learn" element={<Learn/>}/>
-            <Route path="go" element={<GoPro/>}/>
+            <Route path="learn" element={<Learn/>}/> 
+             <Route path="go" element={<GoPro/>}/>
             <Route path="hire" element={<Hire/>}/>
             <Route path="/signup" element={<Signup/>}/>
             <Route path="/signin" element={<Signin/>}/>

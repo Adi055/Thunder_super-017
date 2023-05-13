@@ -10,7 +10,7 @@ import AllLink from "./Link"
 import Signin from "./Signin"
 import Signup from "./Signup"
 import SecondLink from "./SecondLink"
-
+import Likes from "./likes"
 
 let Action=()=>{
     return(
@@ -59,13 +59,34 @@ let Get=()=>{
     </div>
 }
 
+
+
+
+let Action5=()=>{
+    return (
+        <div>
+            <SecondLink/>
+           
+            <Inspiration/>
+        </div>
+    )
+}
+
+let Action6=()=>{
+    return (
+        <div>
+             <SecondLink/>
+                <Likes/>
+        </div>
+    )
+}
+
 function SecondRoute(){
 
     return (
         <div >
             <Routes>
-                
-                <Route path="/inspiration" element={<Inspiration/>}/>
+                <Route path="/inspirations" element={<Action5/>}/>
                 <Route path="/works" element={<Get/>}/>
                 <Route path="learn" element={<Learn/>}/>
                 <Route path="go" element={<GoPro/>}/>
@@ -74,6 +95,7 @@ function SecondRoute(){
                <Route path="/" element={<Action/>}/>
                <Route path="/signin" element={<Action1/>}/>
                <Route path="/signup" element={<Action2/>}/>
+               <Route path="/likes" element={<Action6/>}/>
             </Routes>
         </div>
     )
